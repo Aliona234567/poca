@@ -1,0 +1,36 @@
+/* .active{
+    background-color: #111;
+} */
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #F9C1AA;
+    color: black;
+
+}
+nav .title{
+    font-size: 1.5rem;
+    margin: 1rem;
+    font-weight: bold;
+    text-decoration: none;
+    color: aliceblue;
+
+}
+nav ul{
+    display: flex;
+}
+nav ul li{
+    list-style: none;
+    color: black;
+
+}
+nav ul li a {
+    display: block;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    padding: 0.5rem;
+    margin: 0 0.5rem;
+    border-radius: 0.5rem;
+
+}
